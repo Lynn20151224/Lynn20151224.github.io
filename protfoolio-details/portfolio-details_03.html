@@ -38,7 +38,7 @@
             background-position: center;
             background-size: cover;
             width: 500px;
-            height: 500px;
+            height: 350px;
         }
 
         .swiper-slide img {
@@ -52,22 +52,24 @@
 
         .box {
             margin: 25% auto;
-            width: 50%;
-            height: 250px;
+            width: 60%;
+            /* width: 50%; */
+            /* height: 250px; */
+            height: 50%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
         }
 
-        .box div{
+        .box div {
             margin: 5%;
             margin: 0 auto;
         }
 
         .box .box-text {
             /* border: 1px solid red; */
-            border-top:1px solid #00437d;
-            border-bottom:1px solid #00437d;
+            border-top: 1px solid #00437d;
+            border-bottom: 1px solid #00437d;
             height: 80%;
         }
 
@@ -91,20 +93,24 @@
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                            <img src="/img/movie_img/movie01.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                            <img src="/img/movie_img/movie02.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                            <img src="/img/movie_img/movie03.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                            <img src="/img/movie_img/movie04.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                            <img src="/img/movie_img/movie05.png" />
                         </div>
+                        <div class="swiper-slide">
+                            <img src="/img/movie_img/movie05.png" />
+                        </div>
+
                     </div>
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
@@ -113,20 +119,27 @@
             </div>
 
             <!-- right -->
-            <div class="col shadow-sm p-3 mb-5 bg-body rounded text-center">
+            <div class="col shadow-sm  mb-5 bg-body rounded text-center">
                 <div class="box d-flex shadow p-3 mb-5 bg-body rounded">
                     <div class="box-title ">
-                        <h2>投票系統</h2>
+                        <h2>影城訂票系統</h2>
                         <a href="#"><i class="bi bi-link-45deg fs-3"></i></a>
                     </div>
                     <div class="box-text">
-                        <p class="m-2">投票系統投票系統投票系統投票系統投票系統投票系統投票系統投票系統投票系統投票系統投票系統投票系統投票系統投票系統
-                            投票系統投票系統投票系統投票系統投票系統
+                        <p class="m-2">
+                            在前台顯示目前上映電影資訊，並提供網路線上訂票服務，
+                            後台登入管理訂單與前台上映中電影顯示與上映日期。
+
+                            <!-- 由前端頁面使用ajax來傳送電影資訊到api，
+                            然後在api程式中使用php來取出已訂位的資料，
+                            再以js來完成劃位的操作把訂單資料送到後端儲存。 -->
                         </p>
                     </div>
                     <div class="box-skill d-flex justify-content-center mt-2">
                         <li>HTML</li>
                         <li>CSS</li>
+                        <li>JS</li>
+                        <li>Ajax</li>
                         <li>PHP</li>
                     </div>
                 </div>
