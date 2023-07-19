@@ -439,6 +439,9 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+.pho{
+  height: 50%;
+}
 
 /*--------------------------------------------------------------
 # Skills
